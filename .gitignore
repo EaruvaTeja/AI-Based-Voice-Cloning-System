@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Models and downloaded weights
+model/
+voice/
+*.onnx
+*.safetensors
+*.pth
+
+# Binary voice banks (keep samples/*.wav)
+*.bin
+
+# Caches
+.cache/
+.huggingface/
+HF_HOME/
+
+# Ignore all WAV files...
+*.wav
+
+# ...except the sample deliverables
+!samples/
+!samples/*.wav
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
